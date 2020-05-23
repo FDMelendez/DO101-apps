@@ -3,7 +3,7 @@ var express = require('express');
 let app = express();
 
 app.get('/', function (req, res) {
- let response = 'This is version 1 of the app.'+'\n';
+ let response = 'This is version 2 of the app.'+'\n';
   res.send(response);
 });
 
